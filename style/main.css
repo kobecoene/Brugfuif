@@ -38,8 +38,10 @@ body {
 
 .nav-link {
     position: absolute;
-    color: white;
+    color: red;
     font-family: reckoner, sans-serif;
+    font-size: 20pt;
+    text-shadow: 0 1px 0 rgb(0, 0, 0);
 }
 
 .nav-link:hover, .nav-link:focus {
