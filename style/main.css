@@ -15,8 +15,8 @@ body {
 }
 
 .wrapper {
-    height: 100vh;
-    width: 100vw;
+    height: 120vh;
+    width: 120vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,7 +40,7 @@ body {
     position: absolute;
     color: white;
     font-family: reckoner, sans-serif;
-    font-size: 26pt;
+    font-size: 20pt;
     text-shadow: 0 1px 0 rgb(0, 0, 0);
 }
 
@@ -73,20 +73,5 @@ body {
     top: 0.3rem;
     left: 50%;
     width: 6%;
-    transform: translateX(-50%);
-}
-
-@media (min-width: 1200px){
-    .wrapper {
-        height: 120vh;
-        width: 120vw;
-    }
-
-    #logo-container {
-        transform: translate(-20%, -20%)
-    }
-
-    .main-logo-container {
-        transform: translateX(-70%);
-    }
+    transform: translateX(-70%);
 }
