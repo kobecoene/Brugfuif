@@ -76,7 +76,7 @@ body {
     transform: translateX(-70%);
 }
 
-@media (max-width: 980px){
+@media (min-width: 980px){
     .wrapper {
         height: 120vh;
         width: 120vw;
