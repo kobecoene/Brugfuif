@@ -38,9 +38,9 @@ body {
 
 .nav-link {
     position: absolute;
-    color: red;
+    color: white;
     font-family: reckoner, sans-serif;
-    font-size: 20pt;
+    font-size: 26pt;
     text-shadow: 0 1px 0 rgb(0, 0, 0);
 }
 
