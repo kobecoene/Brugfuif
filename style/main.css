@@ -73,12 +73,20 @@ body {
     top: 0.3rem;
     left: 50%;
     width: 6%;
-    transform: translateX(-70%);
+    transform: translateX(-50%);
 }
 
 @media (min-width: 1200px){
     .wrapper {
         height: 120vh;
         width: 120vw;
+    }
+
+    #logo-container {
+        transform: translate(-20%, -20%)
+    }
+
+    .main-logo-container {
+        transform: translateX(-70%);
     }
 }
