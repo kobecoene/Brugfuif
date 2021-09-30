@@ -1,0 +1,75 @@
+@font-face {
+    font-family: airstrike;
+    src: url("../fonts/airstrikehalf.ttf");
+}
+
+@font-face {
+    font-family: reckoner;
+    src: url("../fonts/Reckoner_Bold.ttf");
+}
+
+body {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper {
+    height: 120vh;
+    width: 120vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Assets/brugfuif_photo_banner.png");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(../Assets/brugfuif_photo_banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    font-family: reckoner, sans-serif;
+}
+
+#logo-container {
+    width: 40%;
+    transform: translate(-20%, -20%)
+}
+
+.nav-link {
+    position: absolute;
+    color: white;
+    font-family: reckoner, sans-serif;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #DCD52D;
+}
+
+.ticket {
+    top: 0.3rem;
+    left: 0.3rem;
+}
+
+.event {
+    top: 0.3rem;
+    right: 0.3rem;
+}
+
+.insta {
+    bottom: 0.3rem;
+    left: 0.3rem;
+}
+
+.facebook {
+    bottom: 0.3rem;
+    right: 0.3rem;
+}
+
+.main-logo-container {
+    position: absolute;
+    top: 0.3rem;
+    left: 50%;
+    width: 6%;
+    transform: translateX(-70%);
+}
