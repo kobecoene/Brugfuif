@@ -33,8 +33,8 @@
     let windowWidth = $(window).width();
 
         $('.main').mousemove(function(event) {
-            let moveX = (($(window).width() / 50) - event.pageX) *0.02;
-            let moveY = (($(window).height() / 50) - event.pageY) *0.02;
+            let moveX = (($(window).width() / 50) - event.pageX) *0.01;
+            let moveY = (($(window).height() / 50) - event.pageY) *0.01;
 
             $('.wrapper').css('margin-left', moveX + 'px');
             $('.wrapper').css('margin-top', moveY + 'px');
