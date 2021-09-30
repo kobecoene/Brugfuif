@@ -4,7 +4,7 @@ let logoLayer = document.getElementById("logo");
 
 function transforms(x, y, el) {
     let box = el.getBoundingClientRect();
-    let calcX = -(y - box.y - (box.height / 1)) / constrain;
+    let calcX = -(y - box.y - (box.height / 2)) / constrain;
     let calcY = (x - box.x - (box.width / 2)) / constrain;
 
     return "perspective(100px) "
