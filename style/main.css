@@ -54,6 +54,7 @@ body {
     transition-duration: .3s;
     text-align: center;
     text-decoration: none;
+    border-radius: 0;
 }
 
 .btnTicket:hover {
