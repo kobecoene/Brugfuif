@@ -1,6 +1,6 @@
 let windowWidth = $(window).width();
 
-if (windowWidth > 1000) {
+if (windowWidth > 1320) {
     $('.main').mousemove(function (event) {
         let moveX = (($(window).width() / 50) - event.pageX) * 0.01;
         let moveY = (($(window).height() / 50) - event.pageY) * 0.01;
