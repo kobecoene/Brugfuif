@@ -112,3 +112,10 @@ body {
     font-size: 10pt;
     opacity: 0.6;
 }
+
+@media only screen and (max-width: 1000px) {
+    .btnTicket {
+        width: 100%;
+        letter-spacing: 0.1rem;
+    }
+}
