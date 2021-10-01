@@ -45,10 +45,17 @@ body {
     background-color: inherit;
     outline: none;
     border: 2px solid white;
-    width: 100%;
+    width: 50%;
     font-family: reckoner, sans-serif;
+    font-size: 26pt;
     color: white;
     letter-spacing: 0.2rem;
+    transition-duration: .3s;
+}
+
+.btnTicket:hover {
+    border: 2px solid #DCD52D;
+    transition-duration: .3s;
 }
 
 .nav-link {
