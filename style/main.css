@@ -57,20 +57,6 @@ body {
     border-radius: 0;
 }
 
-.iframe {
-    margin-top: 4rem;
-    width: 135% !important;
-    height: 200px;
-    -ms-zoom: 0.75;
-    -moz-transform: scale(0.75);
-    -moz-transform-origin: 0 0;
-    -o-transform: scale(0.75);
-    -o-transform-origin: 0 0;
-    -webkit-transform: scale(0.75);
-    -webkit-transform-origin: 0 0;
-    margin-left: auto;
-}
-
 .btnTicket:hover {
     border: 2px solid lightblue;
     color: lightblue;
