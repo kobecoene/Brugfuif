@@ -118,4 +118,8 @@ body {
         width: 100%;
         letter-spacing: 0.1rem;
     }
+
+    .nav-link {
+        font-size: 16pt;
+    }
 }
