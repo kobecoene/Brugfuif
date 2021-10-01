@@ -126,6 +126,7 @@ body {
     }
 
     #logo-container {
-        width: 60%
+        width: 60%;
+        transform: translate(-10%, -50%);
     }
 }
