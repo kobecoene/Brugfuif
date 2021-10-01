@@ -55,6 +55,7 @@ body {
 
 .btnTicket:hover {
     border: 2px solid #DCD52D;
+    color: #DCD52D;
     transition-duration: .3s;
 }
 
