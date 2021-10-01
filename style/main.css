@@ -52,6 +52,8 @@ body {
     color: white;
     letter-spacing: 0.2rem;
     transition-duration: .3s;
+    text-align: center;
+    text-decoration: none;
 }
 
 .btnTicket:hover {
@@ -73,23 +75,23 @@ body {
 }
 
 .photo {
-    top: 0.3rem;
-    right: 0.3rem;
+    top: 0.5rem;
+    right: 0.5rem;
 }
 
 .event {
-    top: 0.3rem;
-    left: 0.3rem;
+    top: 0.5rem;
+    left: 0.5rem;
 }
 
 .insta {
-    bottom: 0.3rem;
-    left: 0.3rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
 }
 
 .facebook {
-    bottom: 0.3rem;
-    right: 0.3rem;
+    bottom: 0.5rem;
+    right: 0.5rem;
 }
 
 .main-logo-container {
@@ -107,7 +109,7 @@ body {
 .footer-text {
     position: absolute;
     color: white;
-    bottom: 0.3rem;
+    bottom: 0.5rem;
     left: 50%;
     transform: translateX(-70%);
     font-size: 10pt;
