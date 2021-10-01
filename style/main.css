@@ -33,7 +33,22 @@ body {
 
 #logo-container {
     width: 40%;
-    transform: translate(-20%, -20%)
+    transform: translate(-20%, -20%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnTicket {
+    margin-top: 4rem;
+    background-color: inherit;
+    outline: none;
+    border: 2px solid white;
+    width: 100%;
+    font-family: reckoner, sans-serif;
+    color: white;
+    letter-spacing: 0.2rem;
 }
 
 .nav-link {
@@ -48,14 +63,14 @@ body {
     color: #DCD52D;
 }
 
-.ticket {
+.photo {
     top: 0.3rem;
-    left: 0.3rem;
+    right: 0.3rem;
 }
 
 .event {
     top: 0.3rem;
-    right: 0.3rem;
+    left: 0.3rem;
 }
 
 .insta {
